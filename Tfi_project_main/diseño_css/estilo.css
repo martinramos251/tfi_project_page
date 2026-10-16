@@ -4,18 +4,40 @@ body {
     background-color: #10101a;
     color: white;
 }
-header {
-text-align: center;
-padding: 40px 20px;
+
+.encabezado {
+    text-align: center;
+    padding: 30px 20px 20px;
+    background-color: #171727;
+    border-bottom: 1px solid #292943;
 }
-nav{
+
+.encabezado a {
+    text-decoration: none;
+    color: #8a5cff;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.encabezado p {
+    margin: 5px 0 0;
+    color: #d2d2e4;
+}
+.menu{
     display: flex;
     justify-content: center;
     gap: 30px;
     padding: 15px;
+    background-color: #171727;
+    border-bottom: 1px solid #292943;
 }
 nav a {
-    color: white;
+    color: rgb(140, 143, 183);;
     text-decoration: none;
     font-weight: bold;
 }
@@ -26,4 +48,25 @@ main{
     max-width: 1200px;
     margin:  auto;
     padding:  40px 20px;
+}
+
+.footCopy {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c35;
+    color: white;
+}
+.containCopy {
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+div a:hover {
+    color:#8a5cff
+}
+
+div a {
+    color: rgb(140, 143, 183);
+    text-decoration: none;
 }
