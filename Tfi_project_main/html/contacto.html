@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | GAMESTORE</title>
+
+    <link rel="stylesheet" href="../diseño_css/estilo.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <a class="logo" href="../../index.html">GAMESTORE</a>
+        <p>Tu mundo de videojuegos</p>
+    </header>
+
+    <nav class="menu" aria-label="Menú principal">
+        <a href="../../index.html">Inicio</a>
+        <a href="../html/juegos.html">Videojuegos</a>
+        <a href="../html/contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section class="introduccion-contacto">
+
+            <p class="etiqueta">ESTAMOS PARA AYUDARTE</p>
+
+            <h1>Contactate con nosotros</h1>
+
+            <p>
+                Completá el formulario y dejanos tu consulta.
+                Te responderemos a la brevedad.
+            </p>
+
+        </section>
+
+        <section class="formulario-contenedor">
+
+            <form id="formulario-contacto" novalidate>
+
+                <div class="campo">
+
+                    <label for="nombre">Nombre completo</label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingresá tu nombre"
+                        minlength="3"
+                        maxlength="60"
+                        autocomplete="name"
+                        aria-describedby="error-nombre"
+                        required
+                    >
+
+                    <small class="mensaje-error" id="error-nombre"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="email">Correo electrónico</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="ejemplo@correo.com"
+                        maxlength="100"
+                        autocomplete="email"
+                        aria-describedby="error-email"
+                        required
+                    >
+
+                    <small class="mensaje-error" id="error-email"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="telefono">Teléfono</label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        placeholder="Ej.: +54 9 11 1234-5678"
+                        maxlength="25"
+                        autocomplete="tel"
+                        aria-describedby="error-telefono"
+                        required
+                    >
+
+                    <small class="mensaje-error" id="error-telefono"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="mensaje">Tu consulta</label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        minlength="10"
+                        maxlength="500"
+                        placeholder="Escribí tu consulta (mínimo 10 caracteres)"
+                        aria-describedby="error-mensaje"
+                        required
+                    ></textarea>
+
+                    <small class="mensaje-error" id="error-mensaje"></small>
+
+                </div>
+
+                <button class="boton boton-enviar" type="submit">
+                    Enviar consulta
+                </button>
+
+                <p id="estado-formulario" class="estado-formulario"
+                   aria-live="polite"></p>
+
+            </form>
+
+            <section
+                id="resumen-contenedor"
+                class="resumen-contenedor"
+                aria-live="polite"
+                aria-label="Resumen de la consulta"
+            ></section>
+
+        </section>
+
+    </main>
+<footer class = "footCopy">
+        <div class = "containlinks">
+            <a href="../../index.html">Inicio</a>
+            <span> | </span>
+            <a href= "./contacto.html">Contacto</a>
+        </div>
+        <div class = "containCopy">
+            <p> Copyright &copy; 2026 <strong>GAMESTORE</strong>. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+    <script src="../scripts/formulario.js"></script>
+
+</body>
+
+</html>
