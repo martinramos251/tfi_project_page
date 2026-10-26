@@ -20,12 +20,36 @@
     </nav>
     <!--contenido principal de la pagina-->
     <main>
-           <section class="presentacion">
+        <section class="presentacion">
             <p class="etiqueta">BIENVENIDO AL MUNDO GAMER</p>
-
             <h1>Tu próxima aventura <span>empieza acá.</span></h1>
+           
+        </section>
+        
+        <section class="seccion-carru"> 
+             <div class="seccion-titu">
+                <p class="destacados">JUEGOS DESTACADOS</p>
+                <h2 id="titulo-carru">Mira nuestro catálogo</h2>
+            </div>
 
-            
+            <div class="carrusel">
+                <img id="img-carru" src="" alt="">
+                <div class="descripciones">
+                    <h3 id="nombre-juego"></h3>
+                    <p id="descrip-juego"></p>
+                </div>
+                <div class="botones">
+                    <button id="ant" type="button">
+                        Anterior
+                    </button>
+
+                    <span id="contador"></span>
+
+                    <button id="sig" type="button">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -39,5 +63,6 @@
             <p> Copyright &copy; 2026 <strong>GAMESTORE</strong>. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script src="scripts/carrusel.js"></script>
 </body>
 </html>

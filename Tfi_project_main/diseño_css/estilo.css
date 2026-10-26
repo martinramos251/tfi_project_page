@@ -3,9 +3,9 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #101a10;
     color: #f5f5fa;
     line-height: 1.6;
@@ -57,7 +57,7 @@ p {
 .etiqueta {
     color: #CCFF00;
     font-size: 0.8rem;
-    font-weight: bold;
+    /*font-weight: bold;*/
     letter-spacing: 2px;
 }
 
@@ -77,6 +77,7 @@ p {
 }
 
 .logo {
+    font-family: 'Russo One', sans-serif;
     display: inline-block;
     font-size: 2.4rem;
     font-weight: bold;
@@ -84,6 +85,7 @@ p {
 }
 
 .encabezado p {
+    font-family: 'Russo One', sans-serif;
     margin: 5px 0 0;
     color: #ffffff;
 }
@@ -97,8 +99,8 @@ p {
 }
 nav a {
     color:  #CCFF00;
-text-decoration: none;
-    font-weight: bold;
+    text-decoration: none;
+    /*font-weight: bold;*/
 }
 nav a:hover {
     color: #ccff009d;
@@ -253,9 +255,6 @@ main{
     text-align: center;
 }
 
-.pie-pagina p {
-    margin: 0;
-}
 .footCopy {
     text-align: center;
     padding: 20px;
@@ -266,6 +265,11 @@ main{
     margin: 0;
     font-size: 15px;
     letter-spacing: 0.5px;
+}
+
+.containCopy p{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div a:hover {
