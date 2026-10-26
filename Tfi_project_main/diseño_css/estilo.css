@@ -57,7 +57,6 @@ p {
 .etiqueta {
     color: #CCFF00;
     font-size: 0.8rem;
-    /*font-weight: bold;*/
     letter-spacing: 2px;
 }
 
@@ -72,8 +71,6 @@ p {
 .encabezado a {
     text-decoration: none;
     color: #CCFF00;
-    
-    
 }
 
 .logo {
@@ -100,7 +97,6 @@ p {
 nav a {
     color:  #CCFF00;
     text-decoration: none;
-    /*font-weight: bold;*/
 }
 nav a:hover {
     color: #ccff009d;
@@ -110,7 +106,6 @@ main{
     margin:  auto;
     padding:  40px 20px;
 }
-
 
 /*PRESENTACION DE LA PAGINA PRINCIPAL*/
 
@@ -125,9 +120,42 @@ main{
 }
 
 .presentacion h1 span {
-    
+    color: #CCFF00; 
+}
+
+.seccion-titu h2 span{
     color: #CCFF00;
-    
+}
+
+.seccion-carru{
+    text-align: center;
+}
+
+.botones #ant, #sig{
+    font-family: 'Russo One', sans-serif;
+    color: #262919f7;
+    background-color: #CCFF00;
+    border-radius: 17.5%;
+}
+
+.carrusel{
+    border-color: #ccff009d;
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: center;
+}
+
+#nombre-juego{
+    font-family: 'Russo One', sans-serif;
+}
+
+.descripciones{
+    padding: 7px;
+}
+
+.carrusel img {
+    display: block;
+    margin: 0 auto;
 }
 
 .texto-presentacion {
