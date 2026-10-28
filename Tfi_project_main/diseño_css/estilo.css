@@ -129,6 +129,8 @@ main{
 
 .seccion-carru{
     text-align: center;
+    padding: 30px 0 55px;
+
 }
 
 .botones #ant, #sig{
@@ -136,13 +138,27 @@ main{
     color: #262919f7;
     background-color: #CCFF00;
     border-radius: 17.5%;
-}
+    
+  }
+  .botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 15px 20px;
+    width: 100%;
+  }
+ 
 
 .carrusel{
     border-color: #ccff009d;
     margin: 0 auto;
     max-width: 850px;
     text-align: center;
+    overflow: hidden;
+    border: 1px solid #CCFF00;
+    border-radius: 16px;
+    background-color: #20311e;
 }
 
 #nombre-juego{
@@ -150,7 +166,17 @@ main{
 }
 
 .descripciones{
-    padding: 7px;
+    padding: 15px 22px;
+    text-align: center;
+}
+.descripciones h3{
+    margin: 0 0 8px;
+    color: #ccff009d;
+   
+}
+.descripciones p{
+    margin: 0;
+    color: #f2f5f2;
 }
 
 .carrusel img {
@@ -208,7 +234,7 @@ main{
 
 .campo input:focus,
 .campo textarea:focus {
-    border-color: #a887ff;
+    border-color: #ccff009d;
     box-shadow: 0 0 0 3px rgba(168, 135, 255, 0.15);
 }
 
@@ -237,7 +263,7 @@ main{
 
 .estado-formulario {
     margin: 15px 0 0;
-    color: #c7b2ff;
+    color: #f8f8fa;
     text-align: center;
 }
 .boton {

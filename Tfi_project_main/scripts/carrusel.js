@@ -29,6 +29,13 @@ allJuegos.push({nombre: "Call of Duty Modern Warfare 4",
     imagen: "./Tfi_project_main/imagenes/Mw4.jpg",
     alt: "Modern Warfare 4 img"
 });
+//Juego 6.
+allJuegos.push({nombre: "Minecraft",
+    descripcion: "Minecraft es un juego de construcción y supervivencia en un mundo abierto generado por procedimientos, donde los jugadores pueden explorar, recolectar recursos y crear estructuras.",
+    imagen: "./Tfi_project_main/imagenes/minecraft.jpg",
+    alt: "Minecraft img"
+});
+
 
 const imgCarrusel = document.getElementById("img-carru");
 const nombreJuego = document.getElementById("nombre-juego");
