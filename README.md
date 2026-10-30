@@ -53,5 +53,5 @@ https://github.com/martinramos251/tfi\_project\_page.git
 
 ##### ENLACE DE GITHUB PAGE:
 
-https://martinramos251.github.io/tfi\_project\_page/
+https://martinramos251.github.io/tfi_project_page/
 
