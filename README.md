@@ -47,7 +47,7 @@ Adentro de la carpeta del proyecto se encuentra las siguientes carpetas:
 
 ##### ENLACE REPOSITORIO:
 
-https://github.com/martinramos251/tfi\_project\_page.git
+https://github.com/martinramos251/tfi_project_page.git
 
 
 
