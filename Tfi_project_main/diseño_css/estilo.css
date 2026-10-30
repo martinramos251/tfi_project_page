@@ -1,6 +1,15 @@
-/*ESTILO GENEREAL A LAS ETIQUETAS*/
+/* ESTILO GENEREAL A LAS ETIQUETAS*/
 * {
     box-sizing: border-box;
+}
+
+/* CARGA LA FUENTE QUE USAMOS */
+@font-face {
+    font-family: 'Russo One';
+    src: url('../../Recursos/Russo_One/RussoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 body{
@@ -141,7 +150,7 @@ main{
     border-radius: 17.5%;
     
   }
-  .botones{
+.botones{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -280,7 +289,7 @@ main{
     border: 2px solid #000000;
     border-radius: 9px;
     background-color: #ccff00ce;
-    color: #ffffff;
+    color: #101a10;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
@@ -424,4 +433,50 @@ div a {
 
 .juego:hover {
     border-color: #8daf0274
+}
+
+/*IDENTIFICADOR DE PAGINA ACTIVA*/
+.menu a.activo{
+    color: #CCFF00;
+    border-bottom: 2px solid #CCFF00;
+}
+
+/*DISEÑO RESPONSIVE*/
+
+/* Estilos para tabletas y pantallas medianas */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 15px; /* Optimiza el espacio de lectura */
+    }
+    
+    .textos h2 {
+        font-size: 32px; /* Reduce el título principal de la sección juegos */
+    }
+
+    .conten-juegos {
+        padding: 10px; /* Corta espacio innecesario */
+    }
+}
+
+/* Estilos para celulares y pantallas pequeñas */
+@media (max-width: 480px) {
+    .link-conten {
+        max-width: 100%; /* Permite que la tarjeta ocupe el ancho disponible sin romperse */
+    }
+
+    #formulario-contacto {
+        padding: 20px 15px; /* Evita que el formulario deje los inputs pegados al borde */
+    }
+
+    .botones {
+        padding: 10px 5px; /* Ajusta los botones del carrusel */
+    }
+    
+    .descripciones {
+        min-height: auto; /* Evita que los textos se corten */
+    }
+
+    .presentacion h1 {
+        font-size: 1.8rem; /* Ajusta el titulo principal */
+    }
 }
